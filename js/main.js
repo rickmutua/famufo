@@ -89,7 +89,7 @@
     * ------------------------------------------------------ */
     var ssFinalCountdown = function() {
 
-        var finalDate = '2020/04/07';
+        var finalDate = '2018/06/20';
 
         $('.home-content__clock').countdown(finalDate)
         .on('update.countdown finish.countdown', function(event) {
@@ -116,7 +116,7 @@
     var ssAjaxChimp = function() {
         
         $('#mc-form').ajaxChimp({
-            language: 'es',
+            language: 'en',
             url: cfg.mailChimpURL
         });
 
